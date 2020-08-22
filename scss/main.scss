@@ -1,5 +1,10 @@
 $primary-color: #444;
 $secondary-color: #eece1a;
+$show-home-image: true;
+$home-image: url(../dist/img/background.jpg);
+$ @mixin easeOut {
+  transition: color 0.7s ease-out;
+}
 
 * {
   box-sizing: border-box;
@@ -62,8 +67,16 @@ main {
 
       &:hover {
         color: $secondary-color;
-        transition: color 0.8s ease-out;
+        @include easeOut();
       }
+    }
+  }
+
+  &#home {
+    // stops scroll bar
+    overflow: hidden;
+    h1 {
+      margin-top: 20vh;
     }
   }
 }
