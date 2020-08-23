@@ -51,9 +51,11 @@
 
     .portrait {
       background: url("../img/portimg2.jpeg");
+      filter: brightness(100%);
       background-position: center;
       width: 150px;
       height: 150px;
+      opacity: 1;
     }
   }
   // map out what you want and where you want, so powerful
