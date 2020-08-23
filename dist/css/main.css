@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #262626;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.7s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: #333;
     transform: translate3d(0, 100%, 0);
     transition: all 0.7s ease-out; }
     .menu-branding.show {
@@ -94,14 +94,15 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: #333;
   color: #fff;
   height: 100%;
   margin: 0;
+  padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(../img/background3.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -112,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(51, 51, 51, 0.4); }
 
 h1,
 h2,
@@ -122,13 +123,13 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 3rem; }
+    font-size: 4rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(56, 56, 56, 0.5); }
 
 a {
   color: white;
@@ -143,7 +144,7 @@ header {
   color: #eece1a; }
 
 main {
-  padding: 4rem;
+  padding: 5rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
@@ -183,14 +184,14 @@ main {
   grid-area: job3; }
 
 .job {
-  background: #515151;
+  background: #404040;
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #1a1a1a;
   color: #fff;
   height: 60px; }
 
@@ -217,7 +218,7 @@ main {
     height: 25vh;
     transform: translate3d(100, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/smallp.jpg");
+      background: url("../img/lgp.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
