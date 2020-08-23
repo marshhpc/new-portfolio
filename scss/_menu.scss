@@ -92,9 +92,10 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("../img/smallp.jpg");
+      width: 300px;
+      height: 300px;
+      background: url("../img/portimg1.jpeg");
+      background-position: center;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
