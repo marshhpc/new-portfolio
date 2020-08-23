@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/lgp.jpg");
+      background: url("../img/smallp.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -102,7 +102,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background3.jpg);
+    background: url(../img/background2.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -129,7 +129,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(56, 56, 56, 0.5); }
+    background: rgba(59, 59, 59, 0.2); }
 
 a {
   color: white;
@@ -147,16 +147,16 @@ main {
   padding: 5rem;
   min-height: calc(100vh - 60px); }
   main .icons {
-    margin-top: 1rem; }
+    margin-top: -2rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.2rem; }
       main .icons a:hover {
         color: #eece1a;
         transition: all 0.7s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
-      margin-top: 20vh; }
+      margin-top: 3vh; }
 
 .about-info {
   display: grid;
@@ -276,7 +276,7 @@ main {
     height: 25vh;
     transform: translate3d(100, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/lgp.jpg");
+      background: url("../img/smallp.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
