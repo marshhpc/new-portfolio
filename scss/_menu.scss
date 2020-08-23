@@ -1,12 +1,10 @@
 // Menu Button
-
 .menu-btn {
   position: absolute;
   z-index: 3;
   right: 35px;
   top: 35px;
   cursor: pointer;
-
   @include easeOut;
 
   .btn-line {
@@ -18,6 +16,7 @@
   }
 
   // Rotate Into X with menu lines
+  // Come back and figure out why close rotate will not work :[
 
   &.close {
     transform: rotate(180deg);
@@ -37,6 +36,46 @@
       &:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
       }
+    }
+  }
+}
+
+// Menu Overlay
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.9;
+  visibility: hidden;
+
+  &.show {
+    visibility: visible;
+  }
+
+  &-branding,
+  &-nav {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  &-nav {
+    margin: 0;
+    padding: 0;
+    background: darken($primary-color, 5);
+    list-style: none;
+    transform: translate3d(0, -100%, 0);
+    @include easeOut;
+
+    &.show {
+      // Slide in from top
+      transform: translate3d(0, 0, 0);
     }
   }
 }
