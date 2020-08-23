@@ -74,6 +74,9 @@
 // Smartphones
 
 @include mediaSm {
+  h1 {
+    padding-right: 0.8rem;
+  }
   main {
     align-items: center;
     text-align: center;

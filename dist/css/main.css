@@ -290,6 +290,8 @@ main {
     grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
+  h1 {
+    padding-right: 0.8rem; }
   main {
     align-items: center;
     text-align: center; }
